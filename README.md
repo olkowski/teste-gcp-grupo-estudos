@@ -4,6 +4,26 @@ This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
 
+## 🚀 Deploy Automático no Google Cloud Platform
+
+Este projeto está configurado para deploy automático no Google Cloud Run através do GitHub Actions.
+
+### Status do Deploy
+![CI/CD Pipeline](https://github.com/olkowski/teste-gcp-grupo-estudos/workflows/CI/CD%20Pipeline/badge.svg)
+
+### Configuração do Deploy
+Para configurar o deploy automático, consulte o arquivo [DEPLOY_SETUP.md](DEPLOY_SETUP.md) que contém todas as instruções necessárias para:
+- Configurar o Google Cloud Platform
+- Configurar os secrets no GitHub
+- Executar o script de configuração automática
+
+### Script de Configuração Rápida
+Execute o script para configurar automaticamente o GCP:
+```bash
+chmod +x setup-gcp.sh
+./setup-gcp.sh
+```
+
 ## Running the application in dev mode
 
 You can run your application in dev mode that enables live coding using:
